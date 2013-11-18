@@ -1,0 +1,11 @@
+{
+  "name": "flight",
+  "version": "0.0.0",
+  "description": "A module that keeps track of an airline's flights.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laughing Host <admin@laughinghost.com>",
+  "license": "BSD-2-Clause"
+}

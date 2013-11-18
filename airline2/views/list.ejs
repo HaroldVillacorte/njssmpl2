@@ -1,0 +1,17 @@
+<% include partial/header %>
+
+<h1><%= title %></h1>
+
+<ul>
+    <% for (var i = 0; i < flights.length; i++) { %>
+        <% var info = flights[i].getInformation() %>
+        <li>
+            Flt number: <%= info.number %>
+            Origin: <%= info.origin %>
+            Destination: <%= info.destination %>
+        </li>
+    <% } %>
+</ul>
+
+<% include partial/footer %>
+
