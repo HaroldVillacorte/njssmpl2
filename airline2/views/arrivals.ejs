@@ -1,0 +1,18 @@
+<% include partial/header %>
+
+<h1><%= title %></h1>
+
+<ul>
+    <% for (var i = 0; i < arrivals.length; i++) { %>
+        <li>
+            <%=
+                'Flight number: ' + arrivals[i].number + ', Landed: ' + new Date(arrivals[i].actualArrive)
+            %>
+        </li>
+    <% } %>
+</ul>
+
+<h4>Last flight number: <%= lastNumber %></h4>
+
+<% include partial/footer %>
+
